@@ -1,0 +1,47 @@
+{
+  "element": "body",
+  "items": [
+    {
+      "title": "Item 1",
+      "handler": {
+        "param": "context",
+        "body": "alert('You clicked on ' + context)"
+      }
+    },
+    {
+      "title": "Item 2",
+      "disabled": "true",
+      "handler": {
+        "param": "context",
+        "body": "alert('You clicked on ' + context)"
+      }
+    },
+    {
+      "title": "Item 3",
+      "sub": [
+        {
+          "title": "Item 1.1",
+          "handler": {
+            "param": "context",
+            "body": "alert('You clicked on ' + context)"
+          }
+        },
+        {
+          "title": "Item 1.2",
+          "disabled": "true",
+          "handler": {
+            "param": "context",
+            "body": "alert('You clicked on ' + context)"
+          }
+        },
+        {
+          "title": "Item 1.3",
+          "handler": {
+            "param": "context",
+            "body": "alert('You clicked on ' + context)"
+          }
+        }
+      ]
+    }
+  ]
+}
